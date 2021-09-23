@@ -1,0 +1,44 @@
+.back-main-content {
+  background: #fff;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+}
+
+.carousel-inner,
+.carousel,
+.carousel-inner img {
+  width: 100%;
+  height: calc(100vh - 111px);
+}
+
+.texto-principal {
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  background: #f0f0f0;
+  border-radius: 15px;
+}
+
+.titulo-texto-principal {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #037074;
+}
+
+.carousel-indicators button{
+  background-color: rgba(87, 86, 86, 0.432) !important;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(12, 12, 12) !important;
+}
