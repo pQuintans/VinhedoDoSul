@@ -65,6 +65,11 @@
 
 .middle {
   flex-direction: column;
+  height: 100%;
+}
+
+.middle p {
+  padding: 0 50px;
 }
 
 .text-container img {
